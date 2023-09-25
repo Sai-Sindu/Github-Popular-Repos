@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.language-filter-item-card {
+  width: 10%;
+  margin-right: 10px;
+  margin-left: 25px;
+}
+
+.active-button {
+  border: 2px solid #0284c7;
+  color: #0284c7;
+  cursor: pointer;
+  outline: none;
+  width: 100px;
+  border-radius: 20px;
+  background-color: transparent;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.not-active-button {
+  border-width: 0;
+  color: #0f172a;
+  cursor: pointer;
+  outline: none;
+  width: 100px;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}

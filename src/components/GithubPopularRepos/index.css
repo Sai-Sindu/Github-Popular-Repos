@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.github-popular-repos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.github-popular-repos-title {
+  font-family: 'Lobster';
+  font-weight: 600;
+  font-size: 45px;
+}
+.language-filter-item-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.repository-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lobster';
+}
+.failure-img {
+  height: 500px;
+  width: 300px;
+}
+.failure-text {
+  color: #0f172a;
+  font-weight: 700;
+  font-size: 45px;
+}

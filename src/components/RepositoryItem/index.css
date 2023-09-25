@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.repository-item-card {
+  background-color: #f8f8ff;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  margin-top: 20px;
+  margin-right: 20px;
+  font-family: 'Roboto';
+}
+.avatar-img {
+  height: 80px;
+  width: 80px;
+}
+.repository-item-name {
+  color: #e73959;
+  font-size: 20px;
+  font-weight: 600;
+}
+.count-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.count-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon-img {
+  height: 20px;
+  width: 20px;
+}
+.count-text {
+  color: #1e293b;
+  font-size: 15px;
+  margin-left: 10px;
+}
